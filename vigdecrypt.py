@@ -131,7 +131,7 @@ def decode(number):
             return ALPHABET_ENCODING[i][0]
 
 
-# to decode key (for demonstrative purposes)
+# to encode key (for demonstrative purposes)
 def encode(letter):
     for i in range(0, len(ALPHABET_ENCODING)):
         if ALPHABET_ENCODING[i][0] == string.lower(letter):
